@@ -1,4 +1,5 @@
 #!/bin/bash
+#henryd1213 12/04/21
 #This script is responsible for creating user .txt and .php files. It sets group ownerships and permissions. It also creates each user's .php file.
 #This script references "Ls Arrays" and "HTML Page Within Bash" but was written entirely by me.
 array=($(ls /home)) #creates an array of all users in /home
