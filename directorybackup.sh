@@ -1,4 +1,5 @@
 #!/bin/bash
+#henryd1213 12/04/21
 #This script is responsible for backing up all directories and subdirectories in /home
 #This base script was pulled from the source "TAR Backups" and put into an array from "ls Arrays." It was modified by me to look in the /home directory 
 #And the date format was modified, as well as modifying the backup structure to create a date folder, the make the backup for each user in that folder.
