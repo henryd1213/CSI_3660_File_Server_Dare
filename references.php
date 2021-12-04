@@ -14,7 +14,7 @@
                 <li><a href="externalUser.php">Upload/Download</a></li>
                 <li><a href="about.php">About</a></li>
                 <li class="active">References</li>
-                <li><a href="#" class="crud-btn"><span>Learn More</span></a></li>
+                <li><a href="https://youtu.be/KLX7-5ffmVM" class="crud-btn"><span>Learn More</span></a></li>
                 </ul>
         </div>
                 <div class="banner">
