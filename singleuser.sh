@@ -1,4 +1,5 @@
 #!/bin/bash
+#henryd1213 12/04/21
 #This script is responsible for populating the rext files created by listusers.sh. The directory command was taken from "Tree Directory Structure in Bash"
 #And modified to look in the home directories of each user by me. The file extension commands were taken from "Search for File Extensions"
 #The Commands to search for file sizes came from "Size of Directories." Each command was modified to look in each user's /home directory
