@@ -16,3 +16,5 @@ tar -zcvpf $BACKUP_DIR/$DATE/$user-$DATE.tar.gz /home/$user
 #Below deletes backups older than 10 days. Taken from source.
 find $BACKUP_DIR/* -mtime +10 -exec rm {} \;
 done
+#Below logs success of script execution 
+logger "Backed up all /home directories to /usr/loca/CSI3660 from script [$0]"
