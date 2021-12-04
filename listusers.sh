@@ -81,4 +81,5 @@ cat > /var/www/html/$user.php << EOF
 </body></html>
 EOF
 done
-             
+#Below logs success of script 
+logger "Successfully created text files and php files for each user from script [$0]"
