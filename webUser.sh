@@ -1,4 +1,5 @@
 #!/bin/bash
+#henryd1213 12/04/21
 #This script is used to write all contents in the /home/webUser to a text file
 #Array created to store everything in /home/webUser
 array=($(ls /home/webUser))
