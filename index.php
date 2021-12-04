@@ -24,15 +24,14 @@
                                         CSI 3660 Linux File Server Dare
                                 </h1>
                                 <p>
-                                        Welcome to my linux file server web interface!<br>
-                                        This interface serves to display all system users and a basic description of their storage allocation.<br>
-                                        The user's page contains a dynamic list of links to the current users and their server allocation. <br>
-                                        The Upload/Download page is responsible for allowing files to be added to the server and downloaded locally. <br>
-                                        The about page contains a brief description of how the system operates.
-                                        See the references section to visit resources used for this product.<br>
+                                        Welcome to my Linux file server web interface!<br>
+                                        This interface serves to display all system users and a basic description of their storage allocation, as well as allowing uploads and downloads to the server.<br>
+                                        The User's page contains a dynamic list of links to the current users and their server allocation. <br>
+                                        The Upload/Download page is responsible for allowing files to be added to the server and downloaded locally.<br>
+                                        The About page contains a brief description of how the system operates.
+                                        See the References section to visit resources used for this product.<br>
                                         For a detailed video describing the layout and operation of the site and server, check out the "Learn More" button in the top right.<br>
-                                        The links below will take you to their indicated media, social and otherwise.<br>                                                               
- 
+                                        The links below will take you to their indicated media, social and otherwise.<br>                                                              
                                 </p>
                         </div>
                         <div class="app-picture">
