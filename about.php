@@ -24,23 +24,23 @@
                                 About This Project's Operation:
                         </h1>
                         <p class="about" style="width: 1200px;">
-                                This website serves as an interface for a linux VM hosted on GCP.
+                                This website serves as an interface for a Linux VM hosted on GCP.
                                 It utilizes PHP and the cron daemon to run four separate scripts and allow file upload and download.<br>
                                 The first script creates a backup for each user in the /home directory.
                                 It places the created .tar.gz file in /usr/local/csi3660projectbackup/DATE directory,
-                                labelled with the user's name and date the backup was created.<br>
+                                labeled with the user's name and date the backup was created.<br>
                                 The next script is responsible for creating three files, two .txt files and a .php file, for every user it finds in /home.
                                 This script also populates the .php file it creates based off a template within the script, which adjusts to each user.
                                 The third script is responsible for filling the text files used to populate each user's .php file.
                                 First it maps out their /home directory structure into the first file.
                                 Then it calculates the size of the current /home directory.
                                 Afterwards, other commands search through the user's /home directory to count the number of specific files by looking for their accompanying file extensions.
-                                The final script has a simple job of looping through the contents of the /home/webUser directory,
+                                The final script has a simple job of looping through the contents of the /home/webUser directory
                                 and placing found filenames into a text file to be read by the php scripts on the Upload/Download page.<br>
                                 The server was originally designed for Samba so users could interact with their /home directories, and use this site as a simple web interface.
-                                However, GCP and CentOS prevent Samba from running. So PHP was implemnted instead
+                                However, GCP and CentOS prevent Samba from running. So PHP was implemented instead.
                                 The PHP on this server is limited to operating within the /var/www/html and /home/webUser directories.
-                                It uses some of the same logic that was used to create the dynamic user's links and pages,
+                                It the same logic that was used to create the dynamic user's links and pages,
                                 but instead having the links lead to files instead of .php pages.
                                 It uses a form with the POST method to allow a client to select a file to upload.
                                 Once the client clicks the upload button, the POST method places the file in /home/webUser.
